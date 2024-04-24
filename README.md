@@ -67,17 +67,17 @@ Here are some example results of running the Canny Edge Detection program:
 ```
 
 ![Alt text](output_image/bombo_output.png)
-![Alt text](output_image/bombo_nonmax.png)
-![Alt text](output_image/bombo_DT.png)
-![Alt text](output_image/bombo_edges.png)
+![Alt text](output_image/bombo_nonmax.jpg)
+![Alt text](output_image/bombo_DT.jpg)
+![Alt text](output_image/bombo_edges.jpg)
 
 ```bash
     python3 donna.PNG
 ```
 
 ![Alt text](output_image/donna_output.png)
-![Alt text](output_image/donna_nonmax.png)
-![Alt text](output_image/donna_DT.png)
-![Alt text](output_image/donna_edges.png)
+![Alt text](output_image/donna_nonmax.jpg)
+![Alt text](output_image/donna_DT.jpg)
+![Alt text](output_image/donna_edges.jpg)
 
 For more details on the implementation and theory behind the Canny Edge Detection algorithm, please refer to the source code and the accompanying documentation.
