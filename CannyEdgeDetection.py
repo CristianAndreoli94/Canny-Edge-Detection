@@ -295,7 +295,7 @@ G, theta = gradient_intensity(Iy, Ix)
 nms = non_maximum_suppression(G, theta)
 cv2.imwrite("nonmax.jpg", nms)
 # Double threshold
-dt, weak, strong = threshold(nms)
+dt, weak, strong = threshold(nms, args.lowThresholdRatio, args.highThresholdRatio)
 
 cv2.imwrite("DT.jpg", dt)
 
