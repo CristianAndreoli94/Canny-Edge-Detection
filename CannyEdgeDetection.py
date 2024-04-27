@@ -305,6 +305,8 @@ cv2.imwrite("edges.jpg", edges)
 
 # Plotting both images in one graph
 fig, axs = plt.subplots(3, 3, figsize=(15, 15))
+# Adapt the window size to fully display the plot
+plt.subplots_adjust(left=0.05, right=0.95, top=0.95, bottom=0.05, hspace=0.2, wspace=0.2)
 
 axs[0][0].imshow(cv2.cvtColor(original_image, cv2.COLOR_BGR2RGB))
 axs[0][0].set_title('Original Image')
