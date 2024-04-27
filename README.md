@@ -1,5 +1,3 @@
-Here's the markdown you requested:
-
 # Canny Edge Detection
 
 This program implements the Canny Edge Detection algorithm to detect edges in an image. It follows the main steps of the algorithm, including Gaussian smoothing, Sobel filtering, non-maximum suppression, double thresholding, and edge tracking by hysteresis.
