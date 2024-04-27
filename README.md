@@ -43,7 +43,7 @@ The program can be run from the command line with the following arguments:
 Example usage:
 
 ```bash
-python CannyEdgeDetection.py --lowThresholdRatio 0.05 --highThresholdRatio 0.09 path/to/image.jpg
+python3 CannyEdgeDetection.py --lowThresholdRatio 0.05 --highThresholdRatio 0.09 path/to/image.jpg
 ```
 
 ## Output
